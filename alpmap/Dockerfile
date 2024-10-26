@@ -1,10 +1,6 @@
 FROM alpine
 
 # Maintained by: Alex Sylvis
-
-# Add repo file
-ADD ./alpmap.repo /etc/apk/repositories
-
 # Install packages
 RUN apk add bash nmap
 
